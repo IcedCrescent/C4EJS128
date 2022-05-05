@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Reset css */
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: blueviolet;
+    padding: 5px 0 15px;
+    color: white;
+}
+
+header .container h1 {
+    margin: 0;
+}
+
+.container {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.container h2 {
+    margin: 10px 0;
+}
+
+article.card {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h3 {
+    color: purple;
+    margin: 5px 0;
+}
+
+.card h3 em {
+    background-color: rgb(236, 171, 236);
+    padding: 5px;
+}
+
+.card p {
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.card a {
+    text-decoration: none;
+    color: white;
+    background-color: purple;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.card a:hover {
+    color: gray;
+}

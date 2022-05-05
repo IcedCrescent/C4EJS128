@@ -1,0 +1,63 @@
+/* a {
+    color: pink;
+    font-size: 35px;
+}
+
+p {
+    font-size: 16px;
+    fall back fonts 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: black;
+    background-color: #bd251a;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    object-fit: fill;
+} */
+
+/* selector */
+/* Id selector */
+/* Should be only one ID in a page */
+#title {
+    text-align: center;
+    color: rgb(100, 52, 52);
+}
+
+#some-long-word {
+
+}
+
+/* class selector */
+/* Can be used in many place */
+.highlight-yellow {
+    background-color: yellow;
+}
+
+/* Only ul can use this class */
+ul.my-ul {
+    list-style-type: square;
+}
+
+.container > p {
+    color: green;
+}
+
+/* Pseudo class */
+h4:hover {
+    color: yellow;
+}
+
+a:active {
+    font-size: 25px;
+}
+
+a:visited {
+    text-transform: uppercase;
+}

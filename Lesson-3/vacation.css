@@ -1,0 +1,35 @@
+* {
+    border: 1px dashed pink;
+}
+
+h1 {
+    color: brown;
+}
+
+p {
+    color: cadetblue;
+}
+
+.no-border {
+    border: none;
+}
+
+.title {
+    color: grey;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+#article-title {
+    font-family: cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+}

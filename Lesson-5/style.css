@@ -1,0 +1,47 @@
+.flex-container {
+    width: 70%;
+    height: 400px;
+    background-color: darkgray;
+
+    /* Only for block elements */
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+
+    /* main axis */
+    justify-content: center;
+    /* cross axis */
+    align-items: center;
+
+    flex-wrap: wrap;
+    
+
+}
+
+.flex-container .item {
+    width: 150px;
+    height: 20%;
+    border: 2px dashed white;
+    border-radius: 10px;
+    /* prevent child item from shirnking to fit the flexbox */
+    flex-shrink: 0;
+    margin-left: 20px;
+}
+
+.relative {
+    width: 200px;
+    height: 200px;
+    background-color: dodgerblue;
+    position: relative;
+}
+
+.absolute {
+    width: 50px;
+    height: 50px;
+    background-color: greenyellow;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

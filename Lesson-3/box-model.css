@@ -1,0 +1,21 @@
+.p-box {
+    /* Top > Left > Bottom > Right */
+    margin: 10px 20px 30px 40px;
+    /* Top + Bottom > Left + Right */
+    padding: 50px 30px;
+    background-color: aqua;
+    border: 5px dashed black;
+    width: 500px;
+}
+
+.span-box {
+    margin-top: 5px;
+    margin-left: 0;
+    margin-right: 6px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.margin-0 {
+    margin: 0;
+}
